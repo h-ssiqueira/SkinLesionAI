@@ -2,10 +2,11 @@
 ![GitHub repository size](https://img.shields.io/github/repo-size/h-ssiqueira/SkinLesionAI?label=Repository%20Size&style=for-the-badge)
 
 ![Google Colab](https://img.shields.io/badge/google%20colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
-![Google Drive](https://img.shields.io/badge/google%20drive-4285F4?style=for-the-badge&logo=googlecolab&logoColor=white)
+![Google Drive](https://img.shields.io/badge/google%20drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Kaggle](https://img.shields.io/badge/kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQLite](https://img.shields.io/badge/sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
 ![Keras](https://img.shields.io/badge/keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
