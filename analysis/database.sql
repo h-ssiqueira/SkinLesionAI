@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS configuration (
   balance_classes INTEGER NOT NULL,
   segmentation INTEGER NOT NULL,
   data_augmentation INTEGER NOT NULL,
-  normalization TEXT CHECK(normalization IN ('minMaxScaler', 'StandardScaler')),
+  normalization TEXT CHECK(normalization IN ('MinMaxScaler', 'StandardScaler', 'None')),
   custom_optimizer INTEGER NOT NULL,
   callback INTEGER NOT NULL
 );
