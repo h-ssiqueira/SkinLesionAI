@@ -11,6 +11,8 @@ Transfer Learning | Freeze Layers | Balance Classes | Segmentation | Data Augmen
 **:x:** | **:x:** | **:x:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:x:** | **:x:** | [Notebook](convnext/convnextSegmentation.ipynb) | [Notebook](resnetv2/resnetSegmentation.ipynb) | [Notebook](xception/xceptionSegmentation.ipynb)
 **:heavy_check_mark:** | **:heavy_check_mark:** | **:heavy_check_mark:** | **:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:heavy_check_mark:** | **:x:** | [Notebook](convnext/convnextAll.ipynb)** | [Notebook](resnetv2/resnetAll.ipynb)** | [Notebook](xception/xceptionAll.ipynb)**
 **:x:** | **:x:** | **:x:** | **:x:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:x:** | [Notebook](convnext/convnextDataaugmentation.ipynb)** | [Notebook](resnetv2/resnetDataaugmentation.ipynb)** | [Notebook](xception/xceptionDataaugmentation.ipynb)**
+**:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:x:** | [Notebook](convnext/convnextDataAugmentationTransf.ipynb)** | [Notebook](resnetv2/resnetDataAugmentationTransf.ipynb)** | [Notebook](xception/xceptionDataAugmentationTransf.ipynb)**
+**:heavy_check_mark:** | **:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:x:** | [Notebook](convnext/convnextDataAugmentationTransfBalanced.ipynb)** | [Notebook](resnetv2/resnetDataAugmentationTransfBalanced.ipynb)** | [Notebook](xception/xceptionDataAugmentationTransfBalanced.ipynb)**
 
 Obs: Execution in Google Colaboratory with High-RAM (25.5 GB) and T4 as GPU.
 
