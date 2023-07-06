@@ -22,3 +22,9 @@ Obs: Execution in Google Colaboratory with High-RAM (25.5 GB) and T4 as GPU.
 **:heavy_check_mark:**
 **:x:**
 -->
+
+# Another training architecture
+
+The [VIT notebook](VIT.ipynb) have been trained using the [Vision Transformer architecture](https://github.com/google-research/vision_transformer) and TPU.
+
+Achieved **0.02929688** accuracy performance without fine-tuning and **0.7998047** accuracy with fine-tuning. Worth to notice that classes are unbalanced as well as the others parameters weren't calculated.
