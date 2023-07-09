@@ -13,6 +13,9 @@ Transfer Learning | Freeze Layers | Balance Classes | Segmentation | Data Augmen
 **:x:** | **:x:** | **:x:** | **:x:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:x:** | [Notebook](convnext/convnextDataaugmentation.ipynb)** | [Notebook](resnetv2/resnetDataaugmentation.ipynb)** | [Notebook](xception/xceptionDataaugmentation.ipynb)**
 **:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:x:** | [Notebook](convnext/convnextDataAugmentationTransf.ipynb)** | [Notebook](resnetv2/resnetDataAugmentationTransf.ipynb)** | [Notebook](xception/xceptionDataAugmentationTransf.ipynb)**
 **:heavy_check_mark:** | **:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:x:** | [Notebook](convnext/convnextDataAugmentationTransfBalanced.ipynb)** | [Notebook](resnetv2/resnetDataAugmentationTransfBalanced.ipynb)** | [Notebook](xception/xceptionDataAugmentationTransfBalanced.ipynb)**
+**:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:x:** | [Notebook](convnext/convnextDataAugmentationTransf.ipynb)** | [Notebook](resnetv2/resnetDataAugmentationTransf.ipynb)** | [Notebook](xception/xceptionDataAugmentationTransf.ipynb)**
+**:heavy_check_mark:** | **:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:heavy_check_mark:** | MinMaxScaler | **:heavy_check_mark:** | **:x:** | [Notebook](convnext/ConvnextDataAugTransfBalMinMaxOpt.ipynb)** | [Notebook](resnetv2/ResnetDataAugTransfBalMinMaxOpt.ipynb)** | Not trained due to low RAM**
+**:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:heavy_check_mark:** | **:x:** | **:heavy_check_mark:** | **:x:** | [Notebook](convnext/convnextDataAugTransfBalOpt.ipynb)** | [Notebook](resnetv2/resnetDataAugTransfBalOpt.ipynb)** | [Notebook](xception/xceptionDataAugTransfBalOpt.ipynb)**
 
 Obs: Execution in Google Colaboratory with High-RAM (25.5 GB) and T4 as GPU.
 
@@ -27,4 +30,4 @@ Obs: Execution in Google Colaboratory with High-RAM (25.5 GB) and T4 as GPU.
 
 The [VIT notebook](VIT.ipynb) have been trained using the [Vision Transformer architecture](https://github.com/google-research/vision_transformer) and TPU.
 
-Achieved **0.02929688** accuracy performance without fine-tuning and **0.7998047** accuracy with fine-tuning. Worth to notice that classes are unbalanced as well as the others parameters weren't calculated.
+Achieved **0.02929688** accuracy performance without fine-tuning and **0.7998047** accuracy with fine-tuning in 100 epochs. Worth to notice that classes are unbalanced as well as the others parameters weren't calculated.
