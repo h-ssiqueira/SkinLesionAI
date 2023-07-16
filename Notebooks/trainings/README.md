@@ -20,14 +20,9 @@ Transfer Learning | Freeze Layers | Balance Classes | Segmentation | Data Augmen
 Obs: Execution in Google Colaboratory with High-RAM (25.5 GB) and T4 as GPU.
 
 ** Execution in Google Colaboratory with High-RAM (83.5 GB) and A100 as GPU.
-
-<!--
-**:heavy_check_mark:**
-**:x:**
--->
-
+___
 # Another training architecture
 
 The [VIT notebook](VIT.ipynb) have been trained using the [Vision Transformer architecture](https://github.com/google-research/vision_transformer) and TPU.
 
-Achieved **0.02929688** accuracy performance without fine-tuning and **0.7998047** accuracy with fine-tuning in 100 epochs. Worth to notice that classes are unbalanced as well as the others parameters weren't calculated.
+Achieved **0.03125** accuracy performance without fine-tuning and **0.7265625** accuracy with fine-tuning in 10 epochs and batch size of 8 for each TPU core. Worth to notice that classes are unbalanced as well as the others parameters weren't calculated.

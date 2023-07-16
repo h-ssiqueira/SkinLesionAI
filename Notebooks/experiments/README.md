@@ -27,6 +27,9 @@ Template notebook using TPU, experimenting the RAM usage and time to train which
 
 Attempt to use TPU with entire dataset. It requires a reasonable quantity of RAM. Also TCU have limitations about validation sets and other configurations which GPU provides.
 
+* [Vision Transformers](VIT100epochs.ipynb)
+
+TPU training with ViT architecture. Achieved **0.02929688** accuracy performance without fine-tuning and **0.7998047** accuracy with fine-tuning in 100 epochs. Worth to notice that classes are unbalanced as well as the others parameters weren't calculated.
 ___
 ## Visualization and techniques
 * [downloadDataset](downloadDataset.ipynb)

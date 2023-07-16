@@ -28,7 +28,7 @@ This repository refers to a final project of Computer Engineering major which co
 
 ### Objective
 Study the impact of configurations and techniques using CNN models:
-* Architectures:
+* [Architectures](Notebooks/):
     * ConvNeXt;
     * ResNetV2;
     * Xception.
@@ -39,7 +39,7 @@ Study the impact of configurations and techniques using CNN models:
     * Segmentation;
     * Transfer learning.
 
-* Metrics extracted:
+* [Metrics extracted](analysis/):
     * Accuracy;
     * Loss;
     * Sensibility (Recall);
