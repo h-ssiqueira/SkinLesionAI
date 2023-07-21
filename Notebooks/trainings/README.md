@@ -1,4 +1,4 @@
-# Trainings
+# Convolutional Neural Network Trainings
 
 Brief summary about the training configurations used:
 
@@ -21,8 +21,16 @@ Obs: Execution in Google Colaboratory with High-RAM (25.5 GB) and T4 as GPU.
 
 ** Execution in Google Colaboratory with High-RAM (83.5 GB) and A100 as GPU.
 ___
-# Another training architecture
+# [Vision Transformer](https://github.com/google-research/vision_transformer) Training
 
-The [VIT notebook](VIT.ipynb) have been trained using the [Vision Transformer architecture](https://github.com/google-research/vision_transformer) and TPU.
+Model ViT_B/32 and TPU.
+Batch size was equal for all runs: 8 for each TPU core (64). Worth to notice that classes are unbalanced as well as the others parameters weren't calculated.
 
-Achieved **0.03125** accuracy performance without fine-tuning and **0.7265625** accuracy with fine-tuning in 10 epochs and batch size of 8 for each TPU core. Worth to notice that classes are unbalanced as well as the others parameters weren't calculated.
+Epochs | Image Resolution | Accuracy without fine-tuning | Accuracy with fine-tuning | Notebook
+:---: | :---: | :---: | :---: | :---:
+100 | 224 | 0.02929688 | **0.7998047** | [Notebook](visionTransformers/VIT100epochs.ipynb)
+10 | 224 | **0.03125** | **0.7265625** | [Notebook](visionTransformers/VIT.ipynb)
+10 | 256 | 0.02539062 | 0.7158203 | [Notebook](visionTransformers/VIT256.ipynb)
+
+
+Obs: Execution in Google Colaboratory with Standard RAM (12.7 GB) and TPU.

@@ -27,10 +27,11 @@ This repository refers to a final project of Computer Engineering major which co
 * Vascular lesion.
 
 ### Objective
-Study the impact of configurations and techniques using CNN models:
+Study the impact of configurations and techniques using vision transformer (accuracy only) and CNN models:
 * [Architectures](Notebooks/):
     * ConvNeXt;
     * ResNetV2;
+    * ViT_B/32;
     * Xception.
 
 * Mainly techniques used:
