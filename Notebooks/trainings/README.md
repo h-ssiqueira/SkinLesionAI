@@ -16,6 +16,9 @@ Transfer Learning | Freeze Layers | Balance Classes | Segmentation | Data Augmen
 **:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:x:** | [Notebook](convnext/convnextDataAugmentationTransf.ipynb)** | [Notebook](resnetv2/resnetDataAugmentationTransf.ipynb)** | [Notebook](xception/xceptionDataAugmentationTransf.ipynb)**
 **:heavy_check_mark:** | **:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:heavy_check_mark:** | MinMaxScaler | **:heavy_check_mark:** | **:x:** | [Notebook](convnext/ConvnextDataAugTransfBalMinMaxOpt.ipynb)** | [Notebook](resnetv2/ResnetDataAugTransfBalMinMaxOpt.ipynb)** | Not trained due to low RAM**
 **:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:heavy_check_mark:** | **:x:** | **:heavy_check_mark:** | **:x:** | [Notebook](convnext/convnextDataAugTransfBalOpt.ipynb)** | [Notebook](resnetv2/resnetDataAugTransfBalOpt.ipynb)** | [Notebook](xception/xceptionDataAugTransfBalOpt.ipynb)**
+**:heavy_check_mark:** | **:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:x:** | **:x:** | **:x:** | [Notebook](convnext/convnextTransfBal.ipynb)** | [Notebook](resnetv2/resnetTransfBal.ipynb)** | [Notebook](xception/xceptionTransfBal.ipynb)**
+**:heavy_check_mark:** | **:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:x:** | **:heavy_check_mark:** | **:x:** | [Notebook](convnext/convnextTransfBalOpt.ipynb)** | [Notebook](resnetv2/resnetTransfBalOpt.ipynb)** | [Notebook](xception/xceptionTransfBalOpt.ipynb)**
+**:heavy_check_mark:** | **:heavy_check_mark:** | **:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:heavy_check_mark:** | **:x:** | [Notebook](convnext/convnextTransfBalSegOpt.ipynb)** | [Notebook](resnetv2/resnetTransfBalSegOpt.ipynb)** | [Notebook](xception/xceptionTransfBalSegOpt.ipynb)**
 
 Obs: Execution in Google Colaboratory with High-RAM (25.5 GB) and T4 as GPU.
 
