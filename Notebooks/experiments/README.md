@@ -49,3 +49,26 @@ ___
 Both experiments to test if the template works as expected.
 * [convnextNoDuplicationCPU](convnextNoDuplicationCPU.ipynb)
 * [convNextNoTreatmentDupCPU](convNextNoTreatmentDupCPU.ipynb)
+
+___
+## GANs
+Experiments with Generative Adversarial Networks for generating only melanoma images.
+* [GANs](GANs/GANs.ipynb)
+
+Testing Gans generation.
+
+* [GANs batch1](GANs/GANs%20batch1.ipynb)
+
+Testing with batch size of 1.
+
+* [GANs batch 5](GANs/GANs%20batch%205.ipynb)
+
+Testing with batch size of 5.
+
+* [generate_from_gans](GANs/generate_from_gans.ipynb)
+
+Notebook for generate images from the chosen models.
+
+* [template GANs](GANs/template_GANs.ipynb)
+
+Template notebook for training with GANs
