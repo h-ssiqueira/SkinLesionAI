@@ -37,3 +37,20 @@ Epochs | Image Resolution | Accuracy without fine-tuning | Accuracy with fine-tu
 
 
 Obs: Execution in Google Colaboratory with Standard RAM (12.7 GB) and TPU.
+
+# Generative Adversarial Networks (GANs) Training
+
+Brief summary about training configurations:
+
+Transfer Learning | Freeze Layers | Balance Classes | Segmentation | Data Augmentation | GAN model | Normalization | Custom Optimizer | ConvNeXt | ResNetV2 | Xception
+:---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---:
+**:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:heavy_check_mark:** | 4 | **:x:** | **:x:** | [Notebook](GANs/convnext/convnextGANV4.ipynb) | [Notebook](GANs/resnetv2/resnetGANV4.ipynb) | [Notebook](GANs/xception/xceptionGANV4.ipynb)
+**:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:heavy_check_mark:** | 4 | StandardScaler | **:x:** | [Notebook](GANs/convnext/convnextGANV4Std.ipynb) | [Notebook](GANs/resnetv2/resnetGANV4Std.ipynb) | [Notebook](GANs/xception/xceptionGANV4Std.ipynb)
+**:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:heavy_check_mark:** | 4 | MinMaxScaler | **:x:** | [Notebook](GANs/convnext/convnextGANV4MinMax.ipynb) | [Notebook](GANs/resnetv2/resnetGANV4MinMax.ipynb) | [Notebook](GANs/xception/xceptionGANV4MinMax.ipynb)
+**:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:heavy_check_mark:** | 3 | **:x:** | **:x:** | [Notebook](GANs/convnext/convNextGANV3.ipynb) | [Notebook](GANs/resnetv2/resnetGANV3.ipynb) | [Notebook](GANs/xception/xceptionGANV3.ipynb)
+**:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:heavy_check_mark:** | 3 | StandardScaler | **:x:** | [Notebook](GANs/convnext/convnextGANV3Std.ipynb) | [Notebook](GANs/resnetv2/resnetGANV3Std.ipynb) | [Notebook](GANs/xception/xceptionGANV3Std.ipynb)
+**:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:x:** | **:heavy_check_mark:** | 3 | MinMaxScaler | **:x:** | [Notebook](GANs/convnext/convnextGANV3MinMax.ipynb) | [Notebook](GANs/resnetv2/resnetGANV3MinMax.ipynb) | [Notebook](GANs/xception/xceptionGANV3MinMax.ipynb)
+**:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:heavy_check_mark:** | **:heavy_check_mark:** | 3 | MinMaxScaler | **:x:** | [Notebook](GANs/convnext/convnextGANV3SegMinMax.ipynb) | [Notebook](GANs/resnetv2/resnetGANV3SegMinMax.ipynb) | [Notebook](GANs/xception/xceptionGANV3SegMinMax.ipynb)
+**:heavy_check_mark:** | **:heavy_check_mark:** | **:x:** | **:heavy_check_mark:** | **:heavy_check_mark:** | 3 | **:x:** | **:x:** | [Notebook](GANs/convnext/convnextGANV3Seg.ipynb) | [Notebook](GANs/resnetv2/resnetGANV3Seg.ipynb) | [Notebook](GANs/xception/xceptionGANV3Seg.ipynb)
+
+Execution in Google Colaboratory with High-RAM (83.5 GB) and A100 as GPU.
