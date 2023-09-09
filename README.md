@@ -27,7 +27,7 @@ This repository refers to a final project of Computer Engineering major which co
 * Vascular lesion.
 
 ### Objective
-Study the impact of configurations and techniques using vision transformer (accuracy only) and CNN models:
+Study the impact of configurations and techniques using vision transformer (accuracy and transfer learning only) and CNN models:
 * [Architectures](Notebooks/):
     * ConvNeXt;
     * ResNetV2;
@@ -37,6 +37,8 @@ Study the impact of configurations and techniques using vision transformer (accu
 * Mainly techniques used:
 
     * Data augmentation;
+        * Image transformations;
+        * Generative Adversarial Networks.
     * Segmentation;
     * Transfer learning.
 
@@ -49,3 +51,5 @@ Study the impact of configurations and techniques using vision transformer (accu
     * AUC;
     * Precision;
     * Confusion Matrixes.
+        * Multiclass;
+        * Per class.
