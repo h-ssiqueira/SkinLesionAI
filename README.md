@@ -34,6 +34,8 @@ Study the impact of configurations and techniques using vision transformer (accu
     * ViT_B/32;
     * Xception.
 
+22.4 GB of model data were generated.
+
 * Mainly techniques used:
 
     * Data augmentation;
