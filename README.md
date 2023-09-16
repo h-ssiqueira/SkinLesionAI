@@ -52,6 +52,6 @@ Study the impact of configurations and techniques using vision transformer (accu
     * F1-score;
     * AUC;
     * Precision;
-    * Confusion Matrixes.
+    * Confusion Matrices.
         * Multiclass;
         * Per class.

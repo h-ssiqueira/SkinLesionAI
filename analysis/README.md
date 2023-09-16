@@ -30,7 +30,7 @@ FP | False Positive
 TN | True Negative
 TP | True Positive
 
-### Confusion matrixes
+### Confusion matrices
 ![Confusion Matrix](../docs/confusionMatrix.png)
 ![Multiclass Confusion Matrix](../docs/multiclassCM.png)
 
