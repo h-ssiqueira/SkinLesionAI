@@ -21,7 +21,14 @@ Notebook to show metrics and images from the SQLite database where the GANs conf
 ___
 **Note**: ViT information was not contemplated in previous notebooks.
 
-## Metrics overview
+## Environment Statistics
+RAM (GB) | Hardware | Number of tranings performed
+:---: | :---: | :---:
+25.5 | T4 GPU | 14
+83.5 | A100 GPU | 51
+12.7 | TPU | 3
+
+## Metrics Overview
 
 Label | Description
 :---: | :---:
@@ -30,11 +37,11 @@ FP | False Positive
 TN | True Negative
 TP | True Positive
 
-### Confusion matrices
+### Confusion Matrices
 ![Confusion Matrix](../docs/confusionMatrix.png)
 ![Multiclass Confusion Matrix](../docs/multiclassCM.png)
 
-### Metric formulas
+### Metric Formulas
 ![Specificity](../docs/specificity.png)
 ![Recall](../docs/recall.png)
 
