@@ -55,3 +55,6 @@ Study the impact of configurations and techniques using vision transformer (accu
     * Confusion Matrices.
         * Multiclass;
         * Per class.
+
+[Utilization of Different Models and Convolutional Neural
+Network Techniques to Skin Lesion Classification.pdf](docs/Utilization_of_Different_Models_and_Convolutional_Neural_Network_Techniques_to_Skin_Lesion_Classification.pdf)
